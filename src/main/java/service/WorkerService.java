@@ -46,7 +46,7 @@ public class WorkerService {
      * This method generates a random int
      * @param min This is the initial value for the range
      * @param max This is the final value for the range
-     * @return int Random intenger beetwen min and max
+     * @return int Random intenger between min and max
      */
     private static int getRandomNumberInRange(int min, int max) {
         Random random = new Random();

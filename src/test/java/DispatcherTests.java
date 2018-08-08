@@ -23,6 +23,10 @@ public class DispatcherTests {
         dispatcher = new Dispatcher();
     }
 
+    /**
+     * This tests the method dispatchCall with 10 calls concurrently
+     *
+     */
     @Test
     @ThreadCount(10)
     public void dispatchTenCalls() {
